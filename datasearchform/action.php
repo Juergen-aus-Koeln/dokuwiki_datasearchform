@@ -3,6 +3,9 @@
  * DokuWiki Plugin datasearchform (Action Component)
  *
  * @license GPL 2 http://www.gnu.org/licenses/gpl-2.0.html
+ 
+ * @author  Hans-Juergen Schuemmer 
+ * adapted from the original plugin "Searchform"
  * @author  Gerrit Uitslag <klapinklapin@gmail.com>
  */
 
