@@ -56,7 +56,7 @@ class syntax_plugin_datasearchform extends DokuWiki_Syntax_Plugin {
      * @param   Doku_Handler $handler Reference to the Doku_Handler object
      * @return  array Return an array with all data you want to use in render
      */
-    public function handle($match, $state, $pos, &$handler) {
+    public function handle($match, $state, $pos, Doku_Handler $handler) {
         $match = trim(substr($match,15,-1)); //strip {datasearchform (length 15) from start and } from end
         list($key,$value) = explode('=', $match, 2);
 
@@ -76,7 +76,7 @@ class syntax_plugin_datasearchform extends DokuWiki_Syntax_Plugin {
      * @param   $data     array         data created by handler()
      * @return  boolean                 rendered correctly?
      */
-    public function render($format, &$renderer, $data) {
+    public function render($format, Doku_Renderer $renderer, $data) {
         global $lang, $INFO, $ACT, $QUERY;
 
         if($format == 'xhtml') {
