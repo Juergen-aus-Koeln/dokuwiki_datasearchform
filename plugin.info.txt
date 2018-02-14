@@ -1,7 +1,7 @@
 base   datasearchform
 author Juergen Schuemmer (original: Gerrit Uitslag)
 email  h-j-schuemmer@web.de
-date   2014-09-15
+date   2018-02-06
 name   DataSearchform Plugin
 desc   Inserts a data search form in any page to search through the data entries of the data plugin
 url    https://www.dokuwiki.org/plugin:datasearchform
